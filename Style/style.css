@@ -1,0 +1,407 @@
+:root {
+    --darkBlue: #1E283B;
+    --red: #8B0000;
+    --green: #6B8E23;
+    --darkOrange: #8B4513;
+    --grey: #696969;
+    --white: #F3EEEA;
+    --white2: #EBE3D5;
+    --lightbrown: #B0A695;
+    --lightbrown2: #776B5D;
+    --brown: #373024;
+
+}
+
+body {
+    background-color: var(--white);
+}
+
+button {
+    background-color: var(--brown);
+    color: var(--white);
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.474);
+}
+
+.backgorund_ww1 {
+    background-image: url(../Assets/museums-victoria-udKsjyYNDnQ-unsplash\ 1.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ww1 {
+    background-color: var(--white2);
+    width: 85%;
+    position: absolute;
+    /* height: 120%; */
+    top: 87vh;
+    /* margin: auto; */
+    border-radius: 2rem;
+    padding: 1.5rem 2rem;
+    /* margin-top: 100vh; */
+}
+
+.judul p {
+    margin-top: 0.5rem;
+}
+
+.judul h1 {
+    color: var(--lightbrown2);
+}
+
+.judul {
+    text-align: center;
+}
+
+.home_content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.home_content2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.home_content_img_cover {
+    display: flex;
+    width: 60%;
+    flex: 2;
+}
+
+.home_content_img_cover img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.deks_content {
+    display: flex;
+    width: 40%;
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 40px;
+}
+
+.deskripsi {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.judul_content {
+    font-size: 1.7rem;
+    color: var(--lightbrown2);
+}
+
+.img_country{
+    width: 90%;
+    object-fit: contain;
+}
+
+.img_country img{
+    /* width: 50px;
+    height: 50px; */
+    object-fit: contain;
+}
+
+.country img {
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.322);
+    border-radius: 50rem;
+    /* margin: 1.5rem; */
+    width: 10rem;
+}
+
+.country h1 {
+    color: var(--brown);
+    font-size: 5rem;
+}
+
+.country {
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    margin-top: 520px;
+    /* height: 100vh; */
+    /* margin: 1rem 5rem; */
+    text-align: center;
+}
+
+.c_up {
+    justify-content: center;
+    display: flex;
+}
+
+.c_down {
+    justify-content: center;
+    display: flex;
+}
+
+
+/* effect */
+
+.deks_effect p {
+    color: #434343;
+    width: 95%;
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem;
+}
+
+.deks_effect h1 {
+    font-size: 90px;
+    color: var(--brown);
+}
+
+.efect_ww1 {
+    margin-top: 40px;
+    padding: 2rem 6rem;
+    /* height: 80vh; */
+}
+
+.number{
+    margin-top: 60px;
+}
+
+.wrapper .title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.counter-up {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.175);
+    background: rgb(224, 200, 133);
+    background: linear-gradient(63deg, rgba(224, 200, 133, 0.37307422969187676) 0%, rgba(239, 212, 137, 0.303046218487395) 78%, rgba(105, 105, 105, 0.6896008403361344) 100%);
+    display: flex;
+    border-radius: 1rem;
+}
+
+.counter-up .content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.counter-up .content .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+
+.content .box .icon {
+    font-size: 40px;
+    color: var(--brown);
+}
+
+.content .box .counter {
+    font-weight: bold;
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--brown);
+    font-family: sans-serif;
+}
+
+.content .box .text {
+    font-weight: bold;
+    margin-top: -15px;
+    font-size: 1rem;
+    color: var(--brown);
+}
+
+*/
+
+/* weapon */
+.flex_3d {
+    align-items: start;
+    display: flex;
+}
+
+#container3D canvas {
+    border: 1px black solid;
+    width: 50vw !important;
+    height: 50vh !important;
+}
+
+.konten_bawah {
+    height: 100vh;
+}
+
+@media (max-width: 1400px) {
+    .home_content {
+        display: flex;
+    }
+
+    .home_content_img_cover {
+        width: 60%;
+        flex: 2;
+    }
+
+    .deks_content {
+        width: 40%;
+        flex: 3;
+    }
+
+    .home_content_img_cover img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .deskripsi {
+        margin: 20px 0;
+        font-size: 1rem;
+    }
+
+    .judul_content {
+        font-size: 1.5rem;
+        color: var(--lightbrown2);
+    }
+}
+
+@media (min-width: 1200px) {
+    .ww1 {
+        /* width: 1000px; */
+    }
+}
+
+@media (max-width: 1135px) {
+    .img_country{
+        width: 100px;
+        margin: 0px 20px;
+    }
+
+    .img_country img{
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .country{
+        margin-top: 450px;
+    }
+
+    .country h1{
+        font-size: 4rem;
+    }
+
+    .deks_effect h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-height: 700px) {
+    .backgorund_ww1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ww1 {
+        margin-top: 750px;
+        position: unset;
+    }
+}
+
+@media (max-width: 1036px) {
+    .country h1{
+        font-size: 50px;
+    }
+
+    .country{
+        margin-top: 200px;
+    }
+
+    .backgorund_ww1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ww1 {
+        margin-top: 750px;
+        position: unset;
+    }
+
+    .judul_content {
+        font-size: 1.2rem;
+    }
+
+    .deskripsi {
+        font-size: 0.8rem;
+    }
+
+    .counter-up {
+        padding: 50px 50px 0 50px;
+    }
+
+    .counter-up .content .box {
+        width: calc(50% - 30px);
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 872px) {
+    .img_country{
+        width: 50px
+    }
+
+    .img_country h2{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 750px) {
+    .deks_effect p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .deks_effect h1 {
+        font-size: 60px;
+    }
+}
+
+
+
+@media screen and (max-width: 580px) {
+    .counter-up .content .box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        padding: 20px;
+    }
+
+    .counter-up {
+        padding: 30px 20px 0 20px;
+    }
+}
+
+@media (max-height: 600px) {
+    .backgorund_ww1 {
+        height: 600px;
+    }
+}
+
+@media (min-height: 900px) {
+    .backgorund_ww1 {
+        height: 900px;
+    }
+}

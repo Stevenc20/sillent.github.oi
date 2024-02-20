@@ -1,0 +1,93 @@
+@keyframes kanan{
+    0%{
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  
+    100%{
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  #teks_animet{
+    animation: kanan 1.5s ease-in-out;
+  }
+  #teks_animet2{
+    animation: kanan 1.3s ease-in-out;
+  }
+  #teks_animet3{
+    animation: kanan 1s ease-in-out;
+  }
+  
+  /* onscroll */
+  .reveal.anime{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .reveal{
+    transition: all 0.8s ease;
+    position: relative;
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  /*ke kanan */
+  .reveal2.anime {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .reveal2 {
+    transition: all 0.6s ease;
+    position: relative;
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  /*ke kiri */
+  .reveal3.anime {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .reveal3 {
+    transition: all 0.6s ease;
+    position: relative;
+    transform: translateX(20%);
+    opacity: 0;
+  }
+
+  /* onscroll */
+.reveal.anime{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .reveal{
+    transition: all 0.8s ease;
+    position: relative;
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  /*ke kanan */
+  .reveal2.anime {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .reveal2 {
+    transition: all 0.6s ease;
+    position: relative;
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  /*ke kiri */
+  .reveal3.anime {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .reveal3 {
+    transition: all 0.6s ease;
+    position: relative;
+    transform: translateX(20%);
+    opacity: 0;
+  }
